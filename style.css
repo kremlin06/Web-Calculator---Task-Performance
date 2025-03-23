@@ -23,6 +23,9 @@ body {
    align-items: baseline;
    width: 100%;
    margin: 0 auto 10px auto;
+   padding: 5px;
+   border-radius: 12px;
+   box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
@@ -75,7 +78,7 @@ button {
 
 button:active {
    transform: scale(0.95);
-   background-color: #d0d0d0;
+   background-color: #dadbff;
 }
 
 .clear {
@@ -94,7 +97,7 @@ button:active {
 } */
 
 .equals {
-   background-color: #1e43ff; 
+   background-color: #1232d2; 
    color: white;
    grid-column: span 2; 
 }
